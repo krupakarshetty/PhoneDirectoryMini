@@ -1,0 +1,11 @@
+name: fist workflow
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hellow world
+      - run: echo "hello world"
+      - name: Print Good bye
+      - run: echo "Printing Good Bye"
+    
